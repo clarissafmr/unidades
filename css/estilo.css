@@ -1,0 +1,26 @@
+html{
+    font-size: 24px;}/*pixeles de toda la pagina, 1REM=24PX*/
+h1{
+    font-size: 16px;} 
+h2{
+    font-size: 1rem;}/* 1REM=24PX*/
+h3{
+    font-size: 1.75rem;}
+h4{
+    font-size: 1.5rem;}
+h5{
+    font-size: 1.25rem;}
+h6{
+    font-size: 1.05rem;}
+.contenedor{
+    width: 70%; /* se ajusta al 70% de ancho de la pantalla*/
+    height: 400px; /* se ajusta a los 400px de altura de la pantalla*/
+    background-color: aqua; /*color de fondo del padre*/
+    margin: 30px auto; /*el margen se ajustara a los 30px de la pagina*/
+}
+.hijo{
+    width: 70vw; /*se ajustan los 70vw a la anchura del padre*/
+    height: 50vh; /* se ajustan los 50vh a la altura del padre*/
+    background-color: blueviolet; /*color de fondo del hijo*/
+    margin: auto; /*margen automatico*/
+}
